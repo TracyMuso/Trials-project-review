@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(249, 246, 243);
+}
+
+header{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top:0;
+    width: auto;
+    height: 5vh;
+    display: flex;
+    color:rgb(83, 81, 81);
+    justify-content: space-around;
+}
+.top{
+    position: sticky;
+ top: 30px;
+}
+
+#welcome{
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    padding: 10px 7%;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:rgb(178, 156, 156) ;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+ }
+
+.nav-link{
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    width: 25%;
+   padding: 14px 16px;
+}
+@media screen and (min-device-width:480px) {
+    #nav-bar{
+        background-color: rgb(240, 189, 127);
+    }
+}
+
+#projects{
+    background-color: white;
+}
+
+#about{
+    background-color: white;
+}
+
+#image{
+    width: 75%;
+    height: 60%;
+    text-align: center;
+}
